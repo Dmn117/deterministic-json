@@ -1,11 +1,11 @@
-import { createHash } from 'crypto';
+import { createHash } from 'node:crypto';
 
-import { Writer } from './core/writer';
-import { Context } from './core/context';
-import { rfc8785Policy } from './modes/rfc8785';
-import { extendedPolicy } from './modes/extended';
+import { Writer } from './core/writer.js';
+import { Context } from './core/context.js';
+import { rfc8785Policy } from './modes/rfc8785.js';
+import { extendedPolicy } from './modes/extended.js';
 
-import type { CanonicalDigest, CanonicalOptions } from './core/types';
+import type { CanonicalDigest, CanonicalOptions } from './core/types.js';
 
 
 

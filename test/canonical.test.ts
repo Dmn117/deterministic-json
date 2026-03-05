@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { Canonical } from "../src";
+import { Canonical } from "../src/canonical.js";
 
 describe("Canonical JSON", () => {
 

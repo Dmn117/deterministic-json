@@ -1,4 +1,4 @@
-import type { CanonicalPolicy } from "../core/types";
+import type { CanonicalPolicy } from "../core/types.js";
 
 
 export const rfc8785Policy: CanonicalPolicy = {

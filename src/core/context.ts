@@ -1,4 +1,4 @@
-import type { CanonicalOptions, CanonicalContext, CanonicalPolicy } from "./types";
+import type { CanonicalOptions, CanonicalContext, CanonicalPolicy } from "./types.js";
 
 
 export class Context implements CanonicalContext {

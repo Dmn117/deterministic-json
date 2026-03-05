@@ -1,4 +1,5 @@
-import { CanonicalValues, type CanonicalContext, type CustomType, type SerialFactories } from "./types";
+import { CanonicalValues } from "./types.js";
+import type { CanonicalContext, CustomType, SerialFactories } from "./types.js";
 
 
 
