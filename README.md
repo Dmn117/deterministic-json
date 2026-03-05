@@ -3,6 +3,7 @@
 ![npm version](https://img.shields.io/npm/v/@manrp/deterministic-json)
 ![node version](https://img.shields.io/node/v/@manrp/deterministic-json)
 ![license](https://img.shields.io/npm/l/@manrp/deterministic-json)
+![npm downloads](https://img.shields.io/npm/dm/@manrp/deterministic-json)
 
 Deterministic canonical JSON serialization and hashing for Node.js.
 

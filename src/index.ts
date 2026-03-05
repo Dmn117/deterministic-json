@@ -1,3 +1,4 @@
-export * from "./canonical"
-export * from "./core/writer"
-export * from "./core/types"
+export * from "./canonical.js"
+export * from "./modes/extended.js"
+export * from "./modes/rfc8785.js"
+export * from "./core/types.js"

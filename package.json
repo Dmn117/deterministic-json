@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "description": "Deterministic canonical JSON serialization with hashing",
   "keywords": [
-    "deterministc",
+    "deterministic",
+    "canonical-json",
+    "stable-json",
+    "json-stringify",
     "canonical",
-    "json",
+    "hash",
+    "deterministic-hash",
     "serialization",
-    "hash"
+    "json"
   ],
   "license": "MIT",
   "author": "Juan Manuel Romero Proa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmn117/deterministic-json.git"
+  },
+  "homepage": "https://github.com/Dmn117/deterministic-json#readme",
+  "bugs": {
+    "url": "https://github.com/Dmn117/deterministic-json/issues"
+  },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,11 +35,13 @@
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run clean && npm run build",
-    "test": "npx vitest"
+    "prepare": "npm run build",
+    "test": "vitest"
   },
   "engines": {
     "node": ">=20"
