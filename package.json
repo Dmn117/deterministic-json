@@ -1,6 +1,6 @@
 {
   "name": "@manrp/deterministic-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Deterministic canonical JSON serialization with hashing",
   "keywords": [
     "deterministic",
