@@ -15,6 +15,8 @@ export default defineConfig({
 
   outDir: "dist",
 
+  tsconfig: "./tsconfig.build.json",
+
   outExtension({ format }) {
     return {
       js: format === "cjs" ? ".cjs" : ".js",
